@@ -5,9 +5,9 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 75rem;
   margin: auto;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 h2 {
@@ -17,29 +17,29 @@ h2 {
 
 .error {
   color: red;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 .user-form {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 0.625rem;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .user-form input {
-  padding: 10px;
-  border-radius: 5px;
+  padding: 0.625rem;
+  border-radius: 0.3125rem;
   border: 1px solid #ccc;
 }
 
 .user-form button {
-  padding: 10px 15px;
+  padding: 0.625rem 0.9375rem;
   border: none;
   background-color: #2ecc71;
   color: white;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   cursor: pointer;
 }
 
@@ -49,16 +49,16 @@ h2 {
 
 .user-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 15px;
-  margin-top: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(15.625rem, 1fr));
+  gap: 0.9375rem;
+  margin-top: 1.875rem;
 }
 
 .user-card {
   background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  padding: 1.25rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.05);
 }
 
 .user-card h4 {
@@ -67,15 +67,15 @@ h2 {
 }
 
 .user-card p {
-  margin: 5px 0;
+  margin: 0.3125rem 0;
 }
 
 .user-card button {
-  margin-top: 10px;
-  margin-right: 8px;
-  padding: 6px 12px;
+  margin-top: 0.625rem;
+  margin-right: 0.5rem;
+  padding: 0.375rem 0.75rem;
   border: none;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   cursor: pointer;
 }
 
@@ -89,7 +89,7 @@ h2 {
   color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
   .user-form {
     flex-direction: column;
     align-items: center;
